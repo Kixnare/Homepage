@@ -9,6 +9,7 @@
     <link href="css/global.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -61,214 +62,216 @@
             <p>Nie samą pracą i codziennością człowiek żyje, więc kiedy tylko nastaje upragniony urlop to dla nas
                 jest
                 tylko jeden kierunek. NA POŁUDNIE! W górach jest wszystko to co kocham.</p>
-            <button class="js-hideTableButton"><span class="js-changeTableButtonText">Pokaż</span>
+            <button class="js-hideTableButton tableButton"><span class="js-changeTableButtonText">Pokaż</span>
                 Tabelkę</button>
-            <table id="table" class="section__table section__table--hidden">
-                <caption class="section__caption">Korona Gór Polski | Wykaz szczytów</caption>
-                <tr class="section__tableHeader">
-                    <th class="section__tableCell" scope="col">nr</th>
-                    <th class="section__tableCell" scope="col">Pasmo</th>
-                    <th class="section__tableCell" scope="col">Nazwa</th>
-                    <th class="section__tableCell" scope="col">Wysokość<br>(w M n.p.m.)</th>
-                    <th class="section__tableCell" scope="col">Zdobyte</th>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">1</th>
-                    <td class="section__tableCell">Góry Świętokrzyskie</td>
-                    <td class="section__tableCell">ŁYSICA</td>
-                    <td class="section__tableCell">612</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">2</th>
-                    <td class="section__tableCell">Masyw Ślęży (Przedgórze Sudeckie)</td>
-                    <td class="section__tableCell">ŚLĘŻA</td>
-                    <td class="section__tableCell">718</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">3</th>
-                    <td class="section__tableCell">Góry Kaczawskie</td>
-                    <td class="section__tableCell">SKOPIEC</td>
-                    <td class="section__tableCell">724</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">4</th>
-                    <td class="section__tableCell">Góry Bardzkie</td>
-                    <td class="section__tableCell">KŁODZKA GÓRA</td>
-                    <td class="section__tableCell">765</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">5</th>
-                    <td class="section__tableCell">Góry Wałbrzyskie</td>
-                    <td class="section__tableCell">CHEŁMIEC</td>
-                    <td class="section__tableCell">869</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">6</th>
-                    <td class="section__tableCell">Góry Opawskie</td>
-                    <td class="section__tableCell">BISKUPIA KOPA</td>
-                    <td class="section__tableCell">889</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">7</th>
-                    <td class="section__tableCell">Beskid Makowski</td>
-                    <td class="section__tableCell">LUBOMIR</td>
-                    <td class="section__tableCell">912</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">8</th>
-                    <td class="section__tableCell">Góry Stołowe</td>
-                    <td class="section__tableCell">SZCZELINIEC WIELKI</td>
-                    <td class="section__tableCell">919</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">9</th>
-                    <td class="section__tableCell">Beskid Mały</td>
-                    <td class="section__tableCell">CZUPEL</td>
-                    <td class="section__tableCell">934</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">10</th>
-                    <td class="section__tableCell">Góry Kamienne</td>
-                    <td class="section__tableCell">WALIGÓRA</td>
-                    <td class="section__tableCell">936</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">11</th>
-                    <td class="section__tableCell">Rudawy Janowickie</td>
-                    <td class="section__tableCell">SKALNIK </td>
-                    <td class="section__tableCell">945</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">12</th>
-                    <td class="section__tableCell"> Góry Bystrzyckie</td>
-                    <td class="section__tableCell">JAGODNA</td>
-                    <td class="section__tableCell">977</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">13</th>
-                    <td class="section__tableCell">Góry Złote</td>
-                    <td class="section__tableCell">KOWADŁO</td>
-                    <td class="section__tableCell">989</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">14</th>
-                    <td class="section__tableCell">Beskid Niski</td>
-                    <td class="section__tableCell">LACKOWA</td>
-                    <td class="section__tableCell">997</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">15</th>
-                    <td class="section__tableCell"> Góry Sowie</td>
-                    <td class="section__tableCell"> WIELKA SOWA</td>
-                    <td class="section__tableCell">1015</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">16</th>
-                    <td class="section__tableCell">Pieniny</td>
-                    <td class="section__tableCell">WYSOKA</td>
-                    <td class="section__tableCell">1050</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">17</th>
-                    <td class="section__tableCell">Góry Orlickie</td>
-                    <td class="section__tableCell">ORLICA</td>
-                    <td class="section__tableCell">1084</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">18</th>
-                    <td class="section__tableCell"> Góry Bialskie</td>
-                    <td class="section__tableCell">RUDAWIEC</td>
-                    <td class="section__tableCell">1112</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">19</th>
-                    <td class="section__tableCell">Góry Izerskie</td>
-                    <td class="section__tableCell">WYSOKA KOPA</td>
-                    <td class="section__tableCell">1126</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">20</th>
-                    <td class="section__tableCell"> Beskid Wyspowy</td>
-                    <td class="section__tableCell">MOGIELICA</td>
-                    <td class="section__tableCell">1170</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">21</th>
-                    <td class="section__tableCell"> Beskid Śląski</td>
-                    <td class="section__tableCell">SKRZYCZNE</td>
-                    <td class="section__tableCell">1257</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">22</th>
-                    <td class="section__tableCell">Beskid Sądecki</td>
-                    <td class="section__tableCell">RADZIEJOWA</td>
-                    <td class="section__tableCell">1262</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">23</th>
-                    <td class="section__tableCell">Gorce</td>
-                    <td class="section__tableCell">TURBACZ</td>
-                    <td class="section__tableCell">1310</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">24</th>
-                    <td class="section__tableCell">Bieszczady</td>
-                    <td class="section__tableCell">TARNICA</td>
-                    <td class="section__tableCell">1346</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">25</th>
-                    <td class="section__tableCell">Masyw Śnieżnika</td>
-                    <td class="section__tableCell">ŚNIEŻNIK</td>
-                    <td class="section__tableCell">1425</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">26</th>
-                    <td class="section__tableCell">Karkonosze</td>
-                    <td class="section__tableCell">ŚNIEŻKA</td>
-                    <td class="section__tableCell">1602</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">27</th>
-                    <td class="section__tableCell">Beskid Żywiecki</td>
-                    <td class="section__tableCell">BABIA GÓRA</td>
-                    <td class="section__tableCell">1725</td>
-                    <td class="section__tableCell">✘</td>
-                </tr>
-                <tr class="section__tableRow">
-                    <th class="section__tableCell" scope="row">28</th>
-                    <td class="section__tableCell">Tatry</td>
-                    <td class="section__tableCell">RYSY</td>
-                    <td class="section__tableCell">2499</td>
-                    <td class="section__tableCell"></td>
-                </tr>
-            </table>
+            <div class="tableContainer">
+                <table id="table" class="table table--hidden">
+                    <caption class="section__caption">Korona Gór Polski | Wykaz szczytów</caption>
+                    <tr class="tableHeader">
+                        <th class="tableCell" scope="col">nr</th>
+                        <th class="tableCell" scope="col">Pasmo</th>
+                        <th class="tableCell" scope="col">Nazwa</th>
+                        <th class="tableCell" scope="col">Wysokość<br>(w M n.p.m.)</th>
+                        <th class="tableCell" scope="col">Zdobyte</th>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">1</th>
+                        <td class="tableCell">Góry Świętokrzyskie</td>
+                        <td class="tableCell">ŁYSICA</td>
+                        <td class="tableCell">612</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">2</th>
+                        <td class="tableCell">Masyw Ślęży (Przedgórze Sudeckie)</td>
+                        <td class="tableCell">ŚLĘŻA</td>
+                        <td class="tableCell">718</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">3</th>
+                        <td class="tableCell">Góry Kaczawskie</td>
+                        <td class="tableCell">SKOPIEC</td>
+                        <td class="tableCell">724</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">4</th>
+                        <td class="tableCell">Góry Bardzkie</td>
+                        <td class="tableCell">KŁODZKA GÓRA</td>
+                        <td class="tableCell">765</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">5</th>
+                        <td class="tableCell">Góry Wałbrzyskie</td>
+                        <td class="tableCell">CHEŁMIEC</td>
+                        <td class="tableCell">869</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">6</th>
+                        <td class="tableCell">Góry Opawskie</td>
+                        <td class="tableCell">BISKUPIA KOPA</td>
+                        <td class="tableCell">889</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">7</th>
+                        <td class="tableCell">Beskid Makowski</td>
+                        <td class="tableCell">LUBOMIR</td>
+                        <td class="tableCell">912</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">8</th>
+                        <td class="tableCell">Góry Stołowe</td>
+                        <td class="tableCell">SZCZELINIEC WIELKI</td>
+                        <td class="tableCell">919</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">9</th>
+                        <td class="tableCell">Beskid Mały</td>
+                        <td class="tableCell">CZUPEL</td>
+                        <td class="tableCell">934</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">10</th>
+                        <td class="tableCell">Góry Kamienne</td>
+                        <td class="tableCell">WALIGÓRA</td>
+                        <td class="tableCell">936</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">11</th>
+                        <td class="tableCell">Rudawy Janowickie</td>
+                        <td class="tableCell">SKALNIK </td>
+                        <td class="tableCell">945</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">12</th>
+                        <td class="tableCell"> Góry Bystrzyckie</td>
+                        <td class="tableCell">JAGODNA</td>
+                        <td class="tableCell">977</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">13</th>
+                        <td class="tableCell">Góry Złote</td>
+                        <td class="tableCell">KOWADŁO</td>
+                        <td class="tableCell">989</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">14</th>
+                        <td class="tableCell">Beskid Niski</td>
+                        <td class="tableCell">LACKOWA</td>
+                        <td class="tableCell">997</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">15</th>
+                        <td class="tableCell"> Góry Sowie</td>
+                        <td class="tableCell"> WIELKA SOWA</td>
+                        <td class="tableCell">1015</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">16</th>
+                        <td class="tableCell">Pieniny</td>
+                        <td class="tableCell">WYSOKA</td>
+                        <td class="tableCell">1050</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">17</th>
+                        <td class="tableCell">Góry Orlickie</td>
+                        <td class="tableCell">ORLICA</td>
+                        <td class="tableCell">1084</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">18</th>
+                        <td class="tableCell"> Góry Bialskie</td>
+                        <td class="tableCell">RUDAWIEC</td>
+                        <td class="tableCell">1112</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">19</th>
+                        <td class="tableCell">Góry Izerskie</td>
+                        <td class="tableCell">WYSOKA KOPA</td>
+                        <td class="tableCell">1126</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">20</th>
+                        <td class="tableCell"> Beskid Wyspowy</td>
+                        <td class="tableCell">MOGIELICA</td>
+                        <td class="tableCell">1170</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">21</th>
+                        <td class="tableCell"> Beskid Śląski</td>
+                        <td class="tableCell">SKRZYCZNE</td>
+                        <td class="tableCell">1257</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">22</th>
+                        <td class="tableCell">Beskid Sądecki</td>
+                        <td class="tableCell">RADZIEJOWA</td>
+                        <td class="tableCell">1262</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">23</th>
+                        <td class="tableCell">Gorce</td>
+                        <td class="tableCell">TURBACZ</td>
+                        <td class="tableCell">1310</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">24</th>
+                        <td class="tableCell">Bieszczady</td>
+                        <td class="tableCell">TARNICA</td>
+                        <td class="tableCell">1346</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">25</th>
+                        <td class="tableCell">Masyw Śnieżnika</td>
+                        <td class="tableCell">ŚNIEŻNIK</td>
+                        <td class="tableCell">1425</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">26</th>
+                        <td class="tableCell">Karkonosze</td>
+                        <td class="tableCell">ŚNIEŻKA</td>
+                        <td class="tableCell">1602</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">27</th>
+                        <td class="tableCell">Beskid Żywiecki</td>
+                        <td class="tableCell">BABIA GÓRA</td>
+                        <td class="tableCell">1725</td>
+                        <td class="tableCell">✘</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell" scope="row">28</th>
+                        <td class="tableCell">Tatry</td>
+                        <td class="tableCell">RYSY</td>
+                        <td class="tableCell">2499</td>
+                        <td class="tableCell"></td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </main>
     <footer class="footer">

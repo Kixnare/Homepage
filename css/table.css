@@ -1,0 +1,43 @@
+.tableButton {
+    border-radius: 5%;
+    background-color: #ca7a6c;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableHeader {
+    background-color: #ca7a6c;
+}
+
+.tableCell {
+    border: solid 2px #a1a1a1;
+    padding: 3px;
+    text-align: center;
+}
+
+.tableRow:nth-child(even) {
+    background-color: hsl(9, 47%, 90%);
+}
+
+.tableRow:hover {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.section__caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table--hidden {
+    display: none;
+}
