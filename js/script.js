@@ -1,13 +1,22 @@
-console.log("Suprise Mothaf*cka!");
+{
+    const welcome = () => {
+        console.log("Suprise Mothaf*cka!");
+    };
 
-let button = document.querySelector(".section__button");
-let table = document.querySelector(".section__table");
-let showText = "Pokaż Tabelkę";
-let hideText = "Schowaj Tabelkę";
+    const hideTable = () => {
+        const table = document.querySelector(".section__table");
+        const changeTableButtonText = document.querySelector(".js-changeTableButtonText");
 
-button.innerText = showText;
+        table.classList.toggle("section__table--hidden");
+        changeTableButtonText.innerText = table.classList.contains("section__table--hidden") ? "Pokaż" : "Schowaj";
+    };
+    
+    const init = () => {
+        const hideTableButton = document.querySelector(".js-hideTableButton");
+        hideTableButton.addEventListener("click", hideTable);
+    };
 
-button.addEventListener("click", () => {
-    table.classList.toggle("section__hidden");
-    button.innerText = table.classList.contains("section__hidden") ? showText : hideText;
-});
+welcome();
+init();
+
+}

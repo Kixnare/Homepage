@@ -1,7 +1,4 @@
 .section {
-    border: #000000;
-    border-style: solid;
-    border-width: 2px;
     padding: 10px;
     line-height: 1.5;
 }
@@ -13,22 +10,21 @@
 
 .section__image {
     max-width: 200px;
+    width: 100%;
     border: #808000 solid 5px;
 }
 
-.section__button {
+.js-hideTableButton {
     border-radius: 5%;
     background-color: #ca7a6c;
     padding: 8px;
     font-weight: bold;
     font-size: 15px;
-    display: block;
 }
 
 .section__table {
     border-collapse: collapse;
     width: 100%;
-    display: inline-block;
     overflow-x: auto;
 }
 
@@ -55,6 +51,6 @@
     font-weight: bold;
 }
 
-.section__hidden {
+.section__table--hidden {
     display: none;
 }
